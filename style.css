@@ -1,3 +1,6 @@
+ main {
+    background-color: rgb(248, 180, 214);
+ }
 .all {
     background-color: #cf1f60;
     padding:5px;
@@ -24,10 +27,13 @@
     
 }
 div.asher {
-    border: 5px solid black;
+    border-left: 5px solid saddlebrown;
+    border-right:5px solid black;
+    border-top:5px solid saddlebrown ;
+    border-bottom: 5px solid black;;
    margin: 0 10px;
     height: 280px;
-    border-radius: 5px;
+    border-radius: 10px;
     }
     .asher > img {
        display: block;
